@@ -1,0 +1,21 @@
+Bucket Sort
+
+1. Create a bucket for each category
+2. Scan the list and increment a counter in the bucket for each corresponding category
+3. Go through each bucket and overwrite the appropriate amount for each bucket
+
+categories : {0, 1, 2, 3}
+
+A = {1, 0, 3, 1, 0, 0, 2, 3, 2, 2}
+
+Bucket = {0, 0, 0, 0}
+after counting members of A
+
+Bucket = {3, 2, 3, 2}
+
+A = {0, 0, 0, 1, 1, 2, 2, 2, 3, 3}
+
+Worst Case Time Complexity
+O(n + n)
+= O(n)
+

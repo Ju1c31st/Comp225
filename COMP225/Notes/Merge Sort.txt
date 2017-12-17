@@ -1,0 +1,55 @@
+public musicNode mergeSort(musicNode head){
+    	if (head == null || head.next == null)
+    		return head;
+    	
+    	musicNode a = head;
+    	
+    	int mid = getMid(head) / 2;
+    	
+    	if (a.next == null)
+    		return a;
+    	
+    	while (mid - 1 > 0){
+    		a = a.next;
+    		mid--;
+    	}
+    	
+    	musicNode b = a.next;
+    	a.next = null;
+    	a = head;
+    	
+    	musicNode ta = mergeSort(a);
+    	musicNode tb = mergeSort(b);
+    	return merge(ta, tb);
+    }
+    
+    public static musicNode merge(musicNode a, musicNode b){
+    	musicNode result = null;
+    	if (a == null)
+    		return b;
+    	if (b == null)
+    		return a;
+    	
+    	if (a.track.charAt(0) > b.track.charAt(0)){
+    		result = b;
+    		result.next = merge(a, b.next);
+    	}
+    	else{
+    		result = a;
+    		result.next = merge(a.next, b);
+    	}
+    	return result;
+    }
+
+
+
+
+void moveFirstNode(MusicPlayer fromList, MusicPlayer toList) { // TODO  
+    	// Removes the top node of fromList and puts it onto (the top of) toList.
+    	// If fromList is empty, it does nothing.
+    	if (fromList.head != null){
+    		String temp = fromList.head.track;
+        	fromList.head = fromList.head.next;
+        	toList.insertTrack(temp);
+    	}
+    }

@@ -1,0 +1,76 @@
+In Graph Class:
+public boolean allMarked(){
+	for (Iterator<Integer> iter = m.keySet().iterator(); iter.hasNext();){
+		Integer k = iter.next();
+		if (!m.get(k).isMarked()){
+			return false;
+		}
+	}
+	return true;
+}
+	
+public Integer nextUnmarked(){
+	for (Iterator<Integer> iter = m.keySet().iterator(); iter.hasNext();){
+		Integer k = iter.next();
+		if (!getVertex(k).isMarked())return k;
+	}
+	return null;
+}
+
+
+In GraphApplic:
+public void DFTForest(){
+	while (!allMarked()){
+		depthFirstTraversalRec1(nextUnmarked());
+	}
+}
+	
+public Integer numVerticesGtrDegreeK(Integer v, Integer k){
+	Integer gtrCounter = 0;
+	List<Integer> resList = new Vector<Integer>();
+	resList = depthFirstTraversalRec2(v);
+	Iterator<Integer> gtrIt = resList.iterator();
+		
+	while (gtrIt.hasNext()){
+		Integer nextVertex = gtrIt.next();
+		if (nextVertex > k){
+			gtrCounter++;
+		}
+	}	
+	return gtrCounter;
+}
+
+public Integer dftMaxPath(Integer k, Integer depth){
+	Integer deepestPath = depth;
+	Vertex v = getVertex(k);
+	v.setMarked();
+	for(Iterator<Integer> vIt = v.getAdjs().iterator(); vIt.hasNext();){
+		Integer nextVertex = vIt.next();		
+		if (!getVertex(nextVertex).isMarked()){
+			deepestPath = Math.max(dftMaxPath(nextVertex, depth + 1), deepestPath);
+		}
+	}
+	return deepestPath;
+}
+
+public void breadthFirstTraversal(Integer v){ //just like depthfirstIter but with a queue instead of a stack
+	Queue<Integer> q = new LinkedList<Integer>();		
+	System.out.print(v + " ");
+	q.offer(v);
+	getVertex(v).setMarked();	
+	while (!q.isEmpty()) { // while not all vertices visited
+		v = q.peek();
+		VertexIDList adjList = getVertex(v).getAdjs();
+		Iterator<Integer> vIt = adjList.iterator();					   // get iterator over adjacency list representing neighbours			
+		while (vIt.hasNext() && getVertex(v).isMarked())
+			v = vIt.next(); // skip over visited neighbours		
+			if (getVertex(v).isMarked()) {  // only occurs if all neighbours visited
+				q.poll();       // remove from stack
+			}
+			else {             // v is an unvisited neighbour
+				q.offer(v);     // add to stack
+				getVertex(v).setMarked();
+				System.out.print(" " + v);	
+			}
+		}
+	}

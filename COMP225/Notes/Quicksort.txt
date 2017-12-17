@@ -1,0 +1,11 @@
+Quicksort
+
+Any item in its correct sorted order will not change position.
+(items not in correct sorted order must be sorted
+
+{p, a, m, w, c, z}
+
+Worst Case
+T(N) = time for partition + time to sort two remaining portions
+     = O(N^2)
+

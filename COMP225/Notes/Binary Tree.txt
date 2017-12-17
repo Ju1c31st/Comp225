@@ -1,0 +1,31 @@
+Binary Tree
+
+Definition for binary tree T
+1. T is empty
+2. T is not empty and
+	a) Exactly 1 node is the root
+	b) All other nodes are divided into two disjoint subsets called the
+	   left subtree and the right subtree (both of which are trees)
+
+Height of a tree
+H(T) = 0 if T is empty
+H(T) = 1 + maximum(H(Tl), H(Tr)) 
+
+N nodes in the tree
+height is log(N)
+
+balanced tree
+difference in height of subtrees of all nodes must be at least 1
+(must be full on every level except the last)
+
+Tree Traversal
+pre-order: ABCDEF (for tree in that order)
+ACBDEF
+
+post order: FEDCBA (for tree in order ABCDEF)
+
+inorder: DBEACF (left subtree, root, right subtree)
+
+depth first: ACFBED (go all the way down first, then go back and repeat)
+
+breadth first traversal: ABCDEF (read like a book)
