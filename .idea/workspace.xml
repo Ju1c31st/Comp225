@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dbaa29c-bdde-42b2-b082-8f83650f14da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/bin/MusicPlayer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/bin/MusicTests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/bin/musicNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/bin/lectures/LLTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/bin/lectures/LinkedTests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/bin/lectures/SLLNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/bin/lectures/SLList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/bin/lectures/StopWatch.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Comp225.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/src/MusicPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/src/MusicTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/src/lectures/LLTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/src/lectures/LinkedTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/src/lectures/SingleLinks.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/COMP225/Code Bundle/COMP225Week1/src/lectures/StopWatch.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicPlayer.class" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MusicPlayer.class" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/bin/MusicPlayer.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="113">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#1647#0" expanded="true" />
               </folding>
@@ -38,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicTests.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MusicTests.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/bin/MusicTests.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -46,6 +69,26 @@
               <folding>
                 <element signature="e#0#12253#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MusicPlayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/src/MusicPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MusicTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/src/MusicTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +168,7 @@
               <item name="Assignments" type="462c0819:PsiDirectoryNode" />
               <item name="Assignment 1" type="462c0819:PsiDirectoryNode" />
               <item name="COMP225 Assignment 1 2017" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,22 +342,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/bin/MusicPlayer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1647#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/bin/MusicTests.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#12253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/src/MusicTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/src/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COMP225/Assignments/Assignment 1/COMP225 Assignment 1 2017/bin/MusicPlayer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1647#0" expanded="true" />
           </folding>
         </state>
       </provider>
